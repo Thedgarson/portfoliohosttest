@@ -182,6 +182,17 @@ body {
   display: none;
 }
 
+.container-fluid {
+  justify-content: left !important;
+  height: 40px;
+  margin-top: -10px;
+}
+
+.miaueepy {
+  width: 300px;
+  height: 300px;
+}
+
 .hero {
   width: 100%;
   height: 100vh;
@@ -199,13 +210,32 @@ body {
 }
 
 .line {
-  border-top: 1px solid #ccc; /* Adjust color and width as needed */
-  width: 20%; /* Adjust width as needed */
+  border-top: 1px solid #ccc;
+  width: 20%;
 }
 
 .nbatxt {
+  font-family: garlich;
   color: white;
   text-decoration: none;
+}
+
+.sticky-text-hold {
+  margin-top: 20px;
+}
+
+.loss {
+  text-decoration: none;
+  color: white;
+  font-family: bravocharlie;
+}
+
+.mynameonnavbar {
+  color: white !important;
+  font-family: Sinera !important;
+  margin-left: 10px !important;
+  font-size: 20px !important;
+  margin-top: -10px !important;
 }
 
 .navbar.sticky-top {
@@ -677,6 +707,14 @@ nav ul li a {
   animation: changeBackground 20s ease-in-out infinite;
 }
 */
+
+.project-layout {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  background-color: #cdced0;
+}
+
 .projects-section {
   background-color: #03010f;
   align-items: center;
@@ -1021,9 +1059,14 @@ nav ul li a {
   position: relative;
 }
 
+.csdc-line {
+  margin-top: -1px;
+}
+
 .custom-btn {
   background-color: black;
   color: white;
+  margin-top: -10px;
 }
 
 .custom-offcanvas {
